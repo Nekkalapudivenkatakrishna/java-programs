@@ -1,0 +1,181 @@
+step1:start
+step2:declare variable age 
+step3:read the value into age 
+step4:the value is greater than or equal to 18 print eligible
+step5:otherwise print not eligible
+step :stop
+
+check admission possibility
+step1:start
+step2:declare obtained marks,required marks(65%)
+step3:read the value for obtained marks and compare with required marks
+step4:obtained marks are equal or greater than required marks print eligibile
+step5:otherwise print not eligible
+step6:stop
+
+login to facebook
+step1:start
+step2:declare variable email,password
+step3:read the variable for email and password
+step4:compare the value if correct print login successful
+step5:otherwise print invalid password or email
+step6:stop
+
+donate blood
+step1:start
+step2:declare blood group,age,weight,taking alcohol,proper sleep,medication
+step3:read the values for blood group,age,weight,taking alcohol,proper sleep,medication
+step4:compare the values if blood group is match,age greater than=18,alcohol==no,proper sleep==yes,medication==no
+step5:otherwise print not eligible
+step6:stop 
+
+live cricket 
+step1:start
+step2:declare team1,team2
+step3:read the value of last wins as values into  team1,team2
+step4:compare the values and print the greater than value as win
+step5:stop
+
+step1:start
+step2:print bitlabs*10
+step6:stop 
+
+repeat starement
+step1:start
+step2:declare i
+step3:assigning the value 1 to i variable (i=1)
+step4:print "i"
+step5:incrementing i value by 1 and store the value into i (i =count+1)
+step6:repet until it reaches i value is equal or less than 10 (i<=10)
+step7:stop
+
+step1:start
+step2:declare i
+step3:assigning the value 10 to i variable (i=10)
+step4:print "i"
+step5:decrementing i value by 1 and store the value into i (i =count-1)
+step6:repet until it reaches i value is greater than or equal to 1(i>=1)
+step7:stop
+
+withdraw
+deposit
+change the pin
+verify the balance
+mini statements
+
+
+pin change
+step1:start
+step2:insert the atm card
+step3:choose the language
+step4:choose the option pin change 
+step5:enter the current password
+step6:enter the mobile number 
+step7:enter the otp
+step8:enter the new password
+step9:re-enter the new password
+step10:pin change successesful
+step11:stop
+
+withdraw
+step1:start
+step2:insert the atm carde 
+step3:choose the language 
+step4:enter the pin
+step5:enter the account type(savings or current) 
+step6:enter the amount
+step7:withdraw the cash
+step8:otherwise it displayinsufficient balance
+step9:stop
+
+deposit
+step1:star 
+step2:insert the atm card
+step3:choose the language
+step4:enter the pin
+step5:enter the account type(savings or current)
+step6:choose the option deposite
+step7:enter self deposit
+step8:insert the cash
+step9:amount succesfuly added to account
+step10:otherwise remove cash
+step11:stop
+
+mini statement
+step1:star 
+step2:insert the atm card
+step3:choose the language
+step4:enter the pin
+step5:enter the account type(savings or current)
+step6:choose the option mini statement
+step7:printing the mini statement sleep
+step8:otherwise wrong pin
+
+balance enuiry
+step1:start
+step2:insert the atm card
+step3:choose the language
+step4:enter the pin
+step5:enter the account type(savings or current)
+step6:choose the option balance enquiry
+step7:displays and print the balance
+step8:otherwise wrong pin
+
+
+1.write algorithm for sum of 1 to 10 numbers.
+2.write algorithm for print even numbers from 1 to 100
+3.write algorithm for print odd numbers from 1 to 100
+
+
+"Algorithm for sum of 1 to 10 numbers"
+
+step1 : start
+step2 : declare variable i,sum
+step3 : store the values i=1,sum=0
+step4 : write the condition i<=10
+step5 : update the sum as sum=sum+i
+step6 : increment and iterate the i value and print sum
+step7 : repeat the step 5 and 6
+step8 : stop
+
+"Algorithm for print even numbers from 1 to 100"
+
+step1 : start
+step2 : declare variable i
+step3 : store the values i=1
+step4 : write the condition i<=100,if i%2 equal to 0
+step5 : increment and iterate the i value and print
+step6 : repeat the step 4 and 5
+step7 : stop
+
+"Algorithm for print odd numbers from 1 to 100"
+
+
+step1 : start
+step2 : declare variable i
+step3 : store the values i=1
+step4 : write the condition i<=100,if i%2 not equal to 0
+step5 : increment the i value and print
+step6 : repeat the step 4 and 5
+step7 : stop
+
+
+step1 : start
+step2 : declare variable i,sum
+step3 : store the values i=1,sum=0
+step4 : write the condition i<=20,if i%2 equal to 0
+step5 : update the sum as sum=sum+i
+step6 : increment and iterate the i value and print
+step6 : repeat the step 5 and 6
+step7 : print the sum
+step6 : stop
+
+WAP to input basic salary of an employee and calculate its Gross     salary according to following:
+    Basic Salary <= 10000 : HRA = 20%, DA = 80%
+    Basic Salary <= 20000 : HRA = 25%, DA = 90%
+    Basic Salary > 20000 : HRA = 30%, DA = 95%
+
+Write a program that prompts the user to enter their weight in pounds
+ and their height in inches, and then calculates their body mass index (BMI). 
+The program should then output whether they are
+ underweight, normal weight, overweight, or obese based on their BMI.

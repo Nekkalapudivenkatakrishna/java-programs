@@ -1,0 +1,63 @@
+withdraw
+deposit
+change the pin
+verify the balance
+mini statements
+
+
+pin change
+step1:start
+step2:insert the atm card
+step3:choose the language
+step4:choose the option pin change 
+step5:enter the current password
+step6:enter the mobile number 
+step7:enter the otp
+step8:enter the new password
+step9:re-enter the new password
+step10:pin change successesful
+step11:stop
+
+withdraw
+step1:start
+step2:insert the atm carde 
+step3:choose the language 
+step4:enter the pin
+step5:enter the account type(savings or current) 
+step6:enter the amount
+step7:withdraw the cash
+step8:otherwise it displayinsufficient balance
+step9:stop
+
+deposit
+step1:star 
+step2:insert the atm card
+step3:choose the language
+step4:enter the pin
+step5:enter the account type(savings or current)
+step6:choose the option deposite
+step7:enter self deposit
+step8:insert the cash
+step9:amount succesfuly added to account
+step10:otherwise remove cash
+step11:stop
+
+mini statement
+step1:star 
+step2:insert the atm card
+step3:choose the language
+step4:enter the pin
+step5:enter the account type(savings or current)
+step6:choose the option mini statement
+step7:printing the mini statement sleep
+step8:otherwise wrong pin
+
+balance enuiry
+step1:start
+step2:insert the atm card
+step3:choose the language
+step4:enter the pin
+step5:enter the account type(savings or current)
+step6:choose the option balance enquiry
+step7:displays and print the balance
+step8:otherwise wrong pin

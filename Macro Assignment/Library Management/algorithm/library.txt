@@ -1,0 +1,28 @@
+"Algorithm for librery management system(user module)"
+
+step1  : start
+step2  : declare bookno,cardno,borrowbooks,returnbooks,transaction type
+step3  : read values into card no,
+step4  : cardno== validno,otherwise goto step12
+step5  : read the bookno check booksno=validno,other wise goto step12
+step6  : read the transaction type(borrobooks or returnbooks)
+step7  : select borrowbooks(transaction type==borrobooks)
+step8  : read borrowbooks check borrowbooks<=3,other wise goto step12
+step9  : select returnbooks(transaction type==returnbooks)
+step10 : read returnbooks check returnbooks==borrowbooks,other goto step12
+step11 : successful
+step12 : invalid
+step13 : stop
+
+
+"Algorithm for librery management system(admin module)"
+step1  : start
+step2  : declare addbook,password,due,bookno,transaction type
+step3  : read values into password
+step4  : password== valid password, otherwise goto step 3
+step5  : read the transaction type(addbook or due)
+step6  : select addbook , if false goto step8
+step7  : read the book details and assign bookno print successful
+step8  : select due
+step9  : print collect the due
+step10 : stop

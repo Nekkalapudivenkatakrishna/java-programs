@@ -1,0 +1,268 @@
+WAP to input basic salary of an employee and calculate its Gross salary according to following:
+    Basic Salary <= 10000 : HRA = 20%, DA = 80%
+    Basic Salary <= 20000 : HRA = 25%, DA = 90%
+    Basic Salary > 20000 : HRA = 30%, DA = 95%
+
+Algorithm for calculating gross salary
+step1:start
+step2:declare basicsalary, HRA,DA,gross salary 
+step3:read values into basic salary
+step4:if basic salary<=10000 
+step5:calculate HRA =1/5*basic salary, DA = 4/5* basic salary
+step6:print HRA,DA, otherwise goto step7
+step7:else if basic salary<=20000 
+step8:calculate HRA =1/4*basic salary, DA = 9/10* basic salary,
+step9:print HRA,DA otherwise goto step10
+step10:else  basic salary>20000 
+step11:calculate HRA =3/10*basic salary, DA = 19/20* basic salary
+step12:print  HRA,DA 
+step13:gross salary=basic salary+HRA+DA
+step14:print gross salary
+step15:stop
+
+Algorithm for calculating BMI
+step1:start
+step2:declare weight,height,BMI
+step3:read values into weight  in poundsand,height  in inches 
+step4:BMI=(weight/height*height)*703
+step5:print BMI
+step6:if BMI<18 print person is under weight,otherwise goto step7 
+step7:elseif BMI>=18 &&BMI<25 print person is normal weight,otherwise goto step8
+step8:else BMI>25 print person is over weight
+step:stop
+
+
+Algorithm to print multiplication table 
+step1:start
+step2:declare i=1,n,m
+step3:read values into n
+step4:check the condition i<=10,otherwise stop
+step5:print the value n*i=m
+step6:increment the i value i++
+step7:repeat the step4, step5 and step6
+step8:stop
+
+
+"Algorithm for factor of a  number"
+step1 : start
+step2 : declare n,i
+step3 : initialize i=1,n=8
+step4 : check i<=n otherwise goto step 9
+step5 : check n%i==0,otherwise goto step 6
+step6 : print i
+step7 : i++
+step8 : repeat the step 4,5and6,otherwise goto step 9
+step9 : stop
+
+"Algorithm for perfect number"
+step1 : start
+step2 : declare n,i,perfect
+step3 : initialize i=1,n=8,perfect=1
+step4 : check i<n otherwise goto step 9
+step5 : check n%i==0,otherwise goto step 7
+step6 : perfect=perfect+i
+step7 : i++
+step8 : repeat the step 4,5and6,7,8otherwise goto step 9
+step9 : perfect==n,otherwise goto step11
+step10 : print perfect
+step11 : print not perfect
+step12 : stop
+
+
+"pseudo code for strong number"
+
+begin
+declare a vaiable i,n,factorial,strong number
+read the n from user
+iniiailize i=n,factorial=1,strong number=0
+while(i<0)
+factorial=i*factorial
+i--
+strong number=strong number+factorial
+end while
+if(strong number==n)
+print strong number
+else
+print not strong number
+end
+
+
+
+"pseudo code positive or negative number"
+begin 
+declare n
+read the value n
+if(n<0)
+print negitive number
+else(n>=0)
+print positive number
+end if
+end
+
+"pseudo code for spliting of a number
+
+begin
+declare num,digit=0
+input num=254
+while(num>0)
+do
+digit=num%10
+print digit
+num=num/10
+end while
+end
+
+
+
+"pseudo code for read 5 subject marks find the percentage print A,B,C,D,E"
+
+begin 
+declare a,b,c,d,e,sum,obtained marks,percetage
+read the values a,b,c,d,e
+obtained marks=a+b+c+d+e
+percentage=(obtained marks/total marks)*100
+if(percentage>=90)
+print A grade
+else if(percentage>=80)
+print B grade
+else if(percentage>=70)
+print C grade
+else if(percentage>=40)
+print D grade
+else (percentage<=40)
+print fail
+end if
+end
+
+"pseudo code for perimeter of the rectangle"
+begin 
+declare side,perimeter
+read the side
+perimeter=4*sides
+print perimeter
+end
+
+
+
+"pseudo code for read 5 subject marks find the percentage"
+
+begin 
+declare a,b,c,d,e,sum,obtained marks,percetage
+read the values a,b,c,d,e
+obtained marks=a+b+c+d+e
+percentage=(obtained marks/total marks)*100
+print pecentage
+end
+
+
+
+"pseudo code to greatest of three numbers"
+begin
+declare variables a,b,c
+input the variable a,b,c
+ifa>b&&a>c
+print a is big
+else if  b>c
+print b is big
+else 
+print c is big
+end if 
+end
+
+
+"pseudo code to Addition of three numbers"
+begin
+declare a,b,c,addition
+read the a,b,c
+addition=a+b+c
+print addition
+end
+
+"pseudo code for factorial number"
+1begin
+2declare a vaiable i,n,factorial
+read the n from user
+3iniiailize i=n,factorial=1
+4while(i<0)
+7factorial=i*factorial
+6i--
+end while
+8diplay factorial
+9end
+
+"pseudo code for perfect number"
+begin
+declare n,i,perfect
+initialize i=1,n=8,perfect=1
+while(i<n)
+if(n%i==0)
+perfect=perfect+i
+else
+i++
+end if
+end while 
+if(perfect==n)
+print perfect
+else  
+prit not perfect
+end if 
+end
+
+"pseudo code for average of three numbers"
+begin
+declare a,b,c,average,sum
+read the a,b,c
+sum=a+b+c
+average=sum/3
+print average
+end
+
+"pseudo code for area of the rectangle"
+begin 
+declare length,width,area
+read the length,width
+area=length*width
+print area
+end
+
+"pseudo code for area of the square
+begin
+declare side,area
+read the side
+area=side*side
+print area
+end
+
+"pseudo code for perimeter of the rectangle"
+begin 
+declare length,width,perimeter
+read the length,width
+perimeter=2(length*width)
+print perimeter
+end
+
+
+"pseudo code to print bitlabs 10 times"
+begin
+declare count
+Initialize count=1
+while(count<=10)
+do
+print "bitlabs"
+count=count+1
+end while
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
